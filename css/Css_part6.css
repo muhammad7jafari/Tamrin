@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primary-color: #333333
+}
+.plan p:first-child{
+    color: var(--primary-color);
+    font-weight: normal;
+}
+.plan p:nth-child(2){
+    font-size: 36px;
+    color: var(--primary-color);;
+    font-weight: 1000;
+}
+.plan p span{
+    font-size: 24px;
+    color: var(--primary-color);;
+    font-weight: normal;
+}
+.plan p:nth-child(3){
+    font-size: 24px;
+    color: var(--primary-color);;
+    font-weight: normal;
+}

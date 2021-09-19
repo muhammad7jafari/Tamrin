@@ -1,0 +1,128 @@
+.body{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    text-align: center;
+    width: 100vh;
+}
+
+.Uimg1 {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "img1 form1";
+}
+
+.Uimg1 img {
+    width: 50vw;
+    grid-area: img1;
+}
+
+.form {
+    grid-area: form1;
+
+}
+
+.line1 {
+    width: 50px;
+    border-bottom: solid 1px #333333;
+    float: left;
+}
+
+.text {
+    margin-top: 2vw;
+    font-size: 16px;
+    font-weight: normal;
+    color: #333333;
+    text-align: center;
+}
+.form1 {
+    margin: 2vw;
+    padding: 7vw;
+    color: #333333;
+}
+.form1 p:nth-child(1){
+    padding: 2vw;
+    font-size: 2rem;
+    font-weight: 300;
+}
+.form1 input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    padding: 0.5vw;
+    color: #333333;
+    border: 10vw;
+    outline: none;
+    background-color: white;
+    font-size: large;
+}
+.pas1{
+    text-align: left;
+    color: #333333;
+    font-size: 11px;
+}
+.forget1{
+    text-align: right;
+    font-size: smaller;
+    color: #1B5E20;
+    margin-bottom: 2vw;
+}
+.ico1{
+ padding: 3vw;
+    text-align: center;
+
+}
+.sign1{
+    padding: 20px 50px;
+    margin: 2vw 7vw;
+    background-color: #333333;
+    border-radius: 10vw;
+    color: white;
+    align-items: center;
+}
+.Elin1{
+    font-size: 11px;
+    text-align: center;
+}
+.Elin1 span{
+    color: #1B5E20;
+}
+
+
+.fa-google {
+    background:
+            linear-gradient(to bottom left,transparent 49%,#fbbc05 50%) 0 25%/48% 40%,
+            linear-gradient(to top    left,transparent 49%,#fbbc05 50%) 0 75%/48% 40%,
+
+            linear-gradient(-40deg ,transparent 53%,#ea4335 54%),
+            linear-gradient( 45deg ,transparent 46%,#4285f4 48%),
+            #34a853;
+    background-repeat:no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 550px){
+
+    .Uimg1 {
+        display: block;
+        height: 100vh;
+        grid-template-columns: 1fr;
+        grid-template-areas: "form1";
+    }
+    .Uimg1 img {
+        width: 50vw;
+        grid-area: img1;
+        visibility: hidden;
+    }
+    .ico1{
+        padding: 0;
+        margin-top: 5vw;
+    }
+    .form1 p:nth-child(1){
+        font-size: 2rem;
+        text-align: center;
+}
+}

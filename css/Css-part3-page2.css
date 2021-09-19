@@ -1,0 +1,88 @@
+body {
+    color: #333;
+    background-color: white;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    text-size-adjust: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+.P2-h1 {
+    color: #121212;
+    font-family: georgia,'times new roman',times,serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1.9375rem;
+    line-height: 2.25rem;
+    text-align: left;
+}
+/*-----------------------------*/
+@media (min-width:1024px){.P2-divs{-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;height:100%;width:945px;margin-left:auto;margin-right:auto;}}
+@media (min-width:1150px){.P2-divs{width:1110px;margin-left:auto;margin-right:auto;}}
+@media (min-width:1280px){.P2-divs{width:1170px;}}
+@media (min-width:1440px){.P2-divs{width:1200px;}}
+
+            /*-----------------------------*/
+.P2-divs2{margin-left:auto;margin-right:auto;width:100%;}
+@media (min-width:1024px){.P2-divs2{margin-left:calc((100% - 600px) / 2);margin-right:0;width:600px;}
+}@media (min-width:1440px){.P2-divs2{max-width:600px;width:600px;margin-left:calc((100% - 600px) / 2);}}
+            /*-----------------------------*/
+            @media (min-width: 1024px)
+                .P2-matn {
+                    margin-left: 0;
+                    margin-right: 0;
+                    width: 100%;
+                    max-width: 100%;
+                }
+
+                @media (min-width: 600px)
+                    .P2-matn {
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+
+                    @media (min-width: 740px)
+                        .P2-matn {
+                            font-size: 1.25rem;
+                            line-height: 1.875rem;
+                        }
+
+                        @media (min-width: 740px)
+                            .P2-matn {
+                                margin-bottom: 0.9375rem;
+                                margin-top: 0;
+                            }
+
+                            .P2-matn {
+                                margin-bottom: 0.78125rem;
+                                margin-top: 0;
+                                font-family: georgia, 'times new roman', times, serif;
+                                font-size: 1.125rem;
+                                line-height: 1.5625rem;
+                                margin-left: 20px;
+                                margin-right: 20px;
+                                width: calc(100% - 40px);
+                                max-width: 600px;
+                            }
+
+                            p {
+                                margin: 0;
+                                padding: 0;
+                                border: 0;
+                                font-size: 100%;
+                                text-size-adjust: 100%;
+                                font: inherit;
+                                vertical-align: baseline;
+                                display: block;
+                                margin-block-start: 1em;
+                                margin-block-end: 1em;
+                                margin-inline-start: 0px;
+                                margin-inline-end: 0px;
+                            }
+
+

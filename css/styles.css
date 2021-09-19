@@ -1,0 +1,22 @@
+.page-border{
+    color: darkgreen;
+}
+.p{
+    color: salmon;
+}
+!div h3 {
+    font-size: 15px;
+    font-weight: lighter;
+    color: grey;
+}
+ !#container h3 {
+     font-size: 15px;
+     font-weight: lighter;
+     color: darkgreen;
+ }
+
+#container :first-child {
+    font-size: 15px;
+    font-weight: lighter;
+    color: cadetblue;
+}

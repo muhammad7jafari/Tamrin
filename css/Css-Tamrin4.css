@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(7, 1, 9);
+
+    color: grey;
+    margin: 0px;
+    padding: 0px;
+}
+
+.plist {
+    position: relative;
+    color: black;
+    width: 100px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-family: "Open sans";
+}
+
+ul {
+    position: relative;
+    width: 1000px;
+    margin: 100px auto 0px;
+    padding: 2px;
+    box-sizing: border-box;
+
+}
+
+ul li {
+    display: block;
+
+    padding: 10px 0px;
+    margin: 5px 0px;
+    background-color:rgb(14, 4, 18);
+}
+
+
+ul li span:nth-child(1) {
+    margin: 0px;
+    margin-right: 20px;
+    margin-Left: 20px;
+    float: left;
+    padding-right: 0px;
+
+}
+ul li span:nth-child(2) {
+    margin: 0px;
+    margin-right: 20px;
+    margin-Left: 20px;
+    float: left;
+    padding-right: 0px;
+
+}
+
+ul li p:nth-child(3) {
+    margin: 0px;
+    margin-left: 250px;
+    padding-right: 0px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
+ul li p:nth-child(4) {
+    margin: 0px;
+    margin-left: 250px;
+    padding-left: 0px
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+ul li p:nth-child(5) {
+    margin: 0px;
+    margin-left: 630px;
+    margin-top: -36px;
+    float: left;
+    padding: 0px;
+
+
+}
+ul li p:nth-child(6) {
+    margin: 0px;
+    margin-left: 850px;
+    margin-top: -36px;
+    float: left;
+    padding: 0px;
+
+}
